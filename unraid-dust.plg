@@ -1,9 +1,9 @@
 <?xml version='1.0' standalone='yes'?>
 <!DOCTYPE PLUGIN [
-  <!ENTITY name       "unraid-rip">
+  <!ENTITY name       "unraid-dust">
   <!ENTITY author     "dtomlinson">
   <!ENTITY org        "dtomlinson91">
-  <!ENTITY version    "0.13.1">
+  <!ENTITY version    "v0.8.0">
   <!ENTITY gitURL     "https://github.com/&org;/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/master/&name;.plg">
   <!ENTITY releaseURL "&gitURL;/releases/download/&version;/&name;-&version;.txz">
@@ -17,7 +17,7 @@
 
 ### 2022-05-06
 
-- Initial release - rip 0.13.1
+- Initial release - dust v0.8.0
 
 </CHANGES>
 
@@ -45,19 +45,17 @@ fi
 
 <FILE Name="&emhttp;/README.md">
 <INLINE>
-**rip**
+**dust**
 
-rip is a command-line deletion tool focused on safety, ergonomics, and performance. It favors a simple interface, and does not implement the xdg-trash spec or attempt to achieve the same goals.
+du + rust = dust. Like du but more intuitive. An easy way to see where your disk is being used.
 
-Deleted files get sent to the graveyard (`/tmp/graveyard-$USER` by default, see notes on changing this) under their absolute path, giving you a chance to recover them. No data is overwritten. If files that share the same path are deleted, they will be renamed as numbered backups.
-
-For more information see the [rip repository](https://github.com/nivekuil/rip).
+For more information see the [dust repository](https://github.com/bootandy/dust).
 </INLINE>
 </FILE>
 
 <FILE Run="/bin/bash" Method="remove">
 <INLINE>
-echo "*** Removing rip ***"
+echo "*** Removing dust ***"
 
 # Remove plugin related files
 removepkg &name;-&version;
@@ -66,7 +64,7 @@ rm -rf &emhttp;
 rm -rf &plugin;
 
 echo
-echo "*** Successfully removed rip ***"
+echo "*** Successfully removed dust ***"
 </INLINE>
 </FILE>
 </PLUGIN>
