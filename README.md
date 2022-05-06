@@ -11,4 +11,4 @@ For more information see the [dust repository](https://github.com/bootandy/dust)
 
 Drone builds the plugin source using cargo on a new tag creation.
 
-Tag versions follow rip releases.
+Tag versions follow dust releases.
