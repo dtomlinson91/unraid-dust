@@ -2,7 +2,7 @@
 
 This is the repository for the unraid dust plugin.
 
-<img src="https://git.panaetius.co.uk/dtomlinson91/unraid-rip/raw/branch/main/assets/unraid-dust.png"/>
+<img src="https://git.panaetius.co.uk/dtomlinson91/unraid-dust/raw/branch/main/assets/unraid-dust.png"/>
 
 du + rust = dust. Like du but more intuitive. An easy way to see where your disk is being used.
 
