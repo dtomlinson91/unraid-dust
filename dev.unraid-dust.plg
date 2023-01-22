@@ -3,7 +3,7 @@
   <!ENTITY name       "unraid-dust">
   <!ENTITY author     "dtomlinson">
   <!ENTITY org        "dtomlinson91">
-  <!ENTITY version    "v0.8.1">
+  <!ENTITY version    "v0.8.3">
   <!ENTITY gitURL     "https://git.panaetius.co.uk/&org;/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/branch/main/&name;.plg">
   <!ENTITY releaseURL "&gitURL;/releases/download/&version;/&name;-&version;.txz">
@@ -17,7 +17,7 @@
 <CHANGES>
 ### 2022-07-18
 
-- Update dust to v0.8.1
+- Update dust to v0.8.3
 
 ### 2022-05-06
 
