@@ -1,14 +1,19 @@
-# dust
+# unraid-dust
 
-This is the repository for the unraid dust plugin.
+An Unraid plugin that installs dust ([upstream](https://github.com/bootandy/dust)).
 
-<img src="https://git.panaetius.co.uk/dtomlinson91/unraid-dust/raw/branch/main/assets/unraid-dust.png"/>
+## Install
 
-du + rust = dust. Like du but more intuitive. An easy way to see where your disk is being used.
+In the Unraid web UI, go to **Plugins > Install Plugin** and paste this URL:
 
-For more information see the [dust repository](https://github.com/bootandy/dust).
-## dev
+```
+https://github.com/dtomlinson91/unraid-dust/raw/main/unraid-dust.plg
+```
 
-Drone builds the plugin source using cargo on a new tag creation.
+## Release
 
-Tag versions follow dust releases.
+The `release` workflow uses the shared workflow in [unraid-plugin-template](https://github.com/dtomlinson91/unraid-plugin-template).
+It runs every Monday, and it releases a new plugin version when upstream has a new release.
+To release by hand, run the workflow from the **Actions** tab.
+
+The plugin settings are in `plugin.conf`. The text for the Unraid Plugins page is in `description.md`.
