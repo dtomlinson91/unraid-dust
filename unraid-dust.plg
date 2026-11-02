@@ -3,10 +3,10 @@
   <!ENTITY name       "unraid-dust">
   <!ENTITY title      "dust">
   <!ENTITY author     "dtomlinson">
-  <!ENTITY version    "2026.11.01">
-  <!ENTITY upstream   "1.2.6">
-  <!ENTITY package    "unraid-dust-1.2.6-x86_64-2026.11.01">
-  <!ENTITY sha256     "71d150060b9b263f0955c9195125e47ef7edc5be142e30b9c06f89045be99284">
+  <!ENTITY version    "2026.11.02">
+  <!ENTITY upstream   "1.2.7">
+  <!ENTITY package    "unraid-dust-1.2.7-x86_64-2026.11.02">
+  <!ENTITY sha256     "f74a6c1503d3b295125c23406f04f746baec77bd7200d04e69e728e3b96c9ae7">
   <!ENTITY gitURL     "https://github.com/dtomlinson91/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/main/&name;.plg">
   <!ENTITY packageURL "&gitURL;/releases/download/&version;/&package;.txz">
@@ -15,6 +15,9 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" support="&gitURL;" min="6.8.3">
 
 <CHANGES>
+### 2026.11.02
+- dust 1.2.7
+
 ### 2026.11.01
 - dust 1.2.6
 
